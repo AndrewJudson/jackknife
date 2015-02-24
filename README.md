@@ -11,7 +11,7 @@ This is designed to be a command line tool used by researchers. The following us
 
 3. In the terminal run "python path/to/script.py path/to/my_file.csv", where path/to/script.py is the path to the script and path/to/my_file.csv is the path to your csv file.
 
-4. Output is the test statistic.
+4. Output is the p-value.
 
 Implementation details: If you have n trials, this algorithm achieves O(2<sup>n + 1</sup>) via dynamic programming. The brute force method is O(n2<sup>n</sup>).
 
