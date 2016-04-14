@@ -4,7 +4,12 @@ import sys
 def parse_csv(filename):
     f = open(filename, 'rb')
     reader = csv.reader(f)
-    reader.next() #discard header
+    header = reader.next()
+    exception_message = """Your csv header was named incorrectly, 
+                           make sure there are no uneccessary commas 
+                           or spaces and that they're in correct order."""
+    if header != ['trials', 'probabilities']:
+        raise Exception(exception_message)
     trials = []
     probabilities = []
     for row in reader:
