@@ -1,4 +1,5 @@
 The following are instructions for how to use the script as it is used in this [paper] (http://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1005780).
+
 We have also provided relevant data from the paper.
 
 # Directions for implementing our program for statistical test described in Pearson et al 2006:
