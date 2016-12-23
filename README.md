@@ -17,4 +17,4 @@ Implementation details: If you have n trials, this algorithm achieves O(2<sup>n 
 
 In the future? This would make more sense implemented in NumPy, but that would add another burden to researchers who don't know how to use Pip/find packages. This is designed to be easy to use out of the box. Would also make more sense in a compiled language if you were doing a large amount of trials (in the name of speed). Perhaps I will create a C version at some point.
 
-This program was used in a paper (will link when published). Please look at the *paper* folder for data and context.
+This program was used in this [paper] (http://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1005780). Please look at the *paper* folder for data and context.
